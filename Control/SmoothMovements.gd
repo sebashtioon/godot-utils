@@ -3,7 +3,7 @@
 # Description: This function will animate a node on or off 
 #              the screen using a smooth transition.
 # Parameters:
-# 			node - The node that you want to animate. Most likely a Control node.
+# 	    node - The node that you want to animate. Most likely a Control node.
 #           transTYPE - The type of transition you want to use. Choose from: "TOP", "BOTTOM", "LEFT", "RIGHT" or "ZOOM".
 #           transTIME - The time it takes for the transition to complete.
 #           ONorOFF - Choose from: "ON" or "OFF". This will determine if the node will move on or off the screen.
