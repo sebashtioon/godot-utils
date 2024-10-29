@@ -7,14 +7,14 @@
 #           transTYPE - The type of transition you want to use. Choose from: "TOP", "BOTTOM", "LEFT", "RIGHT" or "ZOOM".
 #           transTIME - The time it takes for the transition to complete.
 #           ONorOFF - Choose from: "ON" or "OFF". This will determine if the node will move on or off the screen.
-#           CenterOffset - If you want to set the pivot offset to the center of the node. Default is false.
+#           HasCenterOffset - If you want to set the pivot offset to the center of the node. Default is false.
 #           
 #           Example:
 #           SmoothScreenONOFF($ControlNode, "TOP", 0.5, "ON", false)
 
-func SmoothScreenONOFF(node : Node, transTYPE : String, transTIME : float, ONorOFF : String, CenterOffset : bool):
+func SmoothScreenONOFF(node : Node, transTYPE : String, transTIME : float, ONorOFF : String, HasCenterOffset : bool):
 
-	if CenterOffset == true:
+	if HasCenterOffset == true:
 		pass
 	else:
 		var node_size = node.get_size()
