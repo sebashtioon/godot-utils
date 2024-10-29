@@ -4,7 +4,7 @@
 #              the screen using a smooth transition.
 # Parameters:
 # 			node - The node that you want to animate. Most likely a Control node.
-#           transTYPE - The type of transition you want to use. Choose from: "TOP", "BOTTOM", "LEFT", or "RIGHT"
+#           transTYPE - The type of transition you want to use. Choose from: "TOP", "BOTTOM", "LEFT", "RIGHT" or "ZOOM".
 #           transTIME - The time it takes for the transition to complete.
 #           ONorOFF - Choose from: "ON" or "OFF". This will determine if the node will move on or off the screen.
 #           CenterOffset - If you want to set the pivot offset to the center of the node. Default is false.
