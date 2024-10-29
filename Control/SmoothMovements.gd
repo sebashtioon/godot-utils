@@ -7,7 +7,7 @@
 #           transTYPE - The type of transition you want to use. Choose from: "TOP", "BOTTOM", "LEFT", "RIGHT" or "ZOOM".
 #           transTIME - The time it takes for the transition to complete.
 #           ONorOFF - Choose from: "ON" or "OFF". This will determine if the node will move on or off the screen.
-#           HasCenteredOffset - If you want to set the pivot offset to the center of the node. Default is false.
+#           HasCenteredOffset - If you already have the node centered on its pivot-offset. Use false if you want to make it auto-centered.
 #           
 #           Example:
 #           SmoothScreenONOFF($ControlNode, "TOP", 0.5, "ON", false)
